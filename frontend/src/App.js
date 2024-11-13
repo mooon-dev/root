@@ -201,7 +201,7 @@ function App() {
         <div className="profile-header">
           <img className="profile-pic" src="/loading.gif" alt="Xenon Profile" />
           <div className='wrap'>
-            <div className="glitch" data-text="Xenon">root</div>
+            <div className="glitch" data-text="root">root</div>
           </div>
         </div>
 
