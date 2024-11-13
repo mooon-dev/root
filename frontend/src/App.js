@@ -170,7 +170,7 @@ function App() {
     if (!message) return;
 
     try {
-      const response = await axios.post('https://root-c5i2.onrender.com/chat', { message });
+      const response = await axios.post('https://matrix-ksru.onrender.com/chat', { message });
 
       setResponses([...responses, { user: message, bot: response.data.response }]);
       setMessage('');
@@ -201,7 +201,7 @@ function App() {
         <div className="profile-header">
           <img className="profile-pic" src="/loading.gif" alt="Xenon Profile" />
           <div className='wrap'>
-            <div className="glitch" data-text="root">root</div>
+            <div className="glitch" data-text="MatriX">MatriX</div>
           </div>
         </div>
 
